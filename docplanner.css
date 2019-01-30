@@ -1,0 +1,166 @@
+.main-navigation-bar {
+    display:block;
+    
+}
+.main {
+    display:flex ;
+    justify-content: space-evenly ;
+}
+.docplanner-group{
+    width:268px;
+    height: 33px;
+}
+
+ul{
+    display:flex;
+    justify-content: space-between
+}
+.intro {
+      
+    max-width: 1015px;
+
+    margin:  auto;
+    position: relative;
+text-align: center;
+}
+.logo{
+    display:inline-block;
+}
+.intro-text{
+    font-size:2rem;
+    color: #00b39b ;
+}
+.para{
+    line-height: 1.75;
+    font-weight:400;
+    color:#747474 ;
+    display:inline-flex ;
+}
+.patient
+ {
+    border-radius: 25px;
+    background: #00ccb1;
+    padding: 20px; 
+    width: 400px;
+    height: 375px;  
+  }
+  .doctor
+ {
+    border-radius: 25px;
+    background: #3d83df;
+    padding: 20px; 
+    width: 400px;
+    height: 375px;  
+  }
+  .services{
+     
+      display:flex;
+      justify-content: center;
+      }
+  .select {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    color: #333;
+    background: #fff;
+    font-weight: 600;
+    border-radius: 5% ;
+    font-size: .75rem;
+    text-align: center;
+    
+    
+}
+.instructions{
+    color: #fff;
+    margin: 1em 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+}
+.laptop{
+    max-width:100%;
+    height: auto; 
+}
+
+.for-who{    font-size: .875em;
+    font-weight: 400;
+    margin: 0;
+    color: hsla(0,0%,100%,.7);
+}
+.who-we-are 
+{
+    color: #00b39b;
+}
+.half{
+display:flex;
+justify-content: center;    
+}
+.languages{
+    float: left;
+    font-size: 0;
+    width: 67%;
+    color:grey; 
+    }
+.image1{
+    width:168px;
+}
+.image2{
+    width: 168px;
+}
+.image3{
+    width:168px;
+}
+.image4{
+    width:168px;
+}
+.image5{
+    width:168px;
+}
+.backgroundimg{
+    position: relative;
+    width: 1520px;
+    height: 560px;
+}
+.background{
+    position: relative;         
+}
+
+.head{
+    position: absolute;
+}
+.office{
+    display:flex;
+    justify-content: center;
+    color:#00b39b;
+    font-size:2.1em ;
+    font-family: sans-serif;
+}
+.facts{
+    font-weight: 400;
+    color:#747474;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    
+    margin: auto;
+}
+
+
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    height: auto;
+}
+.footer{
+   text-align: center;
+}
